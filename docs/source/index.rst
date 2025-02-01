@@ -14,7 +14,6 @@
 
    _sections/getting_started/system_requirements
    _sections/getting_started/installation
-   _sections/getting_started/accessing_chetaa
    _sections/getting_started/account_creation
    _sections/getting_started/logging_in
    _sections/getting_started/dashboard_navigation
