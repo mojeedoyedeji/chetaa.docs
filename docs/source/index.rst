@@ -14,7 +14,7 @@ Introduction
 
 |spacer|
 
-**DermVision** (/ˈdɜrmˌvɪʒən/) is a SaaS application for mini-logistics businesses
+**Chetaa** (/ˈdɜrmˌvɪʒən/) is a SaaS application for mini-logistics businesses
 
 
 
