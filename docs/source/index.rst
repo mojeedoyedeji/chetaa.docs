@@ -1,7 +1,4 @@
 
-Welcome to Chetaa Documentation!
-=================================
-
 .. toctree::
    :maxdepth: 2
    :caption: INTRODUCTION
@@ -15,120 +12,120 @@ Welcome to Chetaa Documentation!
    :maxdepth: 2
    :caption: GETTING STARTED
 
-   getting_started/system_requirements
-   getting_started/installation
-   getting_started/accessing_chetaa
-   getting_started/account_creation
-   getting_started/logging_in
-   getting_started/dashboard_navigation
+   _sections/getting_started/system_requirements
+   _sections/getting_started/installation
+   _sections/getting_started/accessing_chetaa
+   _sections/getting_started/account_creation
+   _sections/getting_started/logging_in
+   _sections/getting_started/dashboard_navigation
 
 .. toctree::
    :maxdepth: 2
    :caption: USER ROLES & PERMISSIONS
 
-   user_roles/overview
-   user_roles/admin
-   user_roles/user
-   user_roles/dispatcher
-   user_roles/business_owner
+   _sections/user_roles/overview
+   _sections/user_roles/admin
+   _sections/user_roles/user
+   _sections/user_roles/dispatcher
+   _sections/user_roles/business_owner
 
 .. toctree::
    :maxdepth: 2
    :caption: ADMIN GUIDE
 
-   admin/managing_users
-   admin/business_settings
-   admin/managing_logistics
-   admin/system_usage_reports
-   admin/handling_support
+   _sections/admin/managing_users
+   _sections/admin/business_settings
+   _sections/admin/managing_logistics
+   _sections/admin/system_usage_reports
+   _sections/admin/handling_support
 
 .. toctree::
    :maxdepth: 2
    :caption: USER (SMALL BUSINESS OWNER) GUIDE
 
-   user/creating_orders
-   user/tracking_deliveries
-   user/payments_invoices
-   user/reviewing_dispatchers
-   user/support_disputes
+   _sections/user/creating_orders
+   _sections/user/tracking_deliveries
+   _sections/user/payments_invoices
+   _sections/user/reviewing_dispatchers
+   _sections/user/support_disputes
 
 .. toctree::
    :maxdepth: 2
    :caption: DISPATCHER GUIDE
 
-   dispatcher/managing_requests
-   dispatcher/updating_status
-   dispatcher/managing_routes
-   dispatcher/communication
-   dispatcher/payment_tracking
+   _sections/dispatcher/managing_requests
+   _sections/dispatcher/updating_status
+   _sections/dispatcher/managing_routes
+   _sections/dispatcher/communication
+   _sections/dispatcher/payment_tracking
 
 .. toctree::
    :maxdepth: 2
    :caption: DISPATCH BUSINESS OWNER GUIDE
 
-   business_owner/registering_business
-   business_owner/managing_dispatchers
-   business_owner/assigning_requests
-   business_owner/payments_payouts
-   business_owner/analytics_reporting
+   _sections/business_owner/registering_business
+   _sections/business_owner/managing_dispatchers
+   _sections/business_owner/assigning_requests
+   _sections/business_owner/payments_payouts
+   _sections/business_owner/analytics_reporting
 
 .. toctree::
    :maxdepth: 2
    :caption: INTERNAL API DOCUMENTATION
 
-   api/overview
-   api/purpose
-   api/frontend_backend
-   api/authentication
-   api/general_structure
-   api/endpoints/authentication
-   api/endpoints/order_management
-   api/endpoints/delivery_tracking
-   api/endpoints/payments
-   api/endpoints/dispatcher_management
-   api/endpoints/webhooks
-   api/error_handling
-   api/security
+   _sections/api/overview
+   _sections/api/purpose
+   _sections/api/frontend_backend
+   _sections/api/authentication
+   _sections/api/general_structure
+   _sections/api/endpoints/authentication
+   _sections/api/endpoints/order_management
+   _sections/api/endpoints/delivery_tracking
+   _sections/api/endpoints/payments
+   _sections/api/endpoints/dispatcher_management
+   _sections/api/endpoints/webhooks
+   _sections/api/error_handling
+   _sections/api/security
 
 .. toctree::
    :maxdepth: 2
    :caption: SECURITY & COMPLIANCE
 
-   security/data_protection
-   security/authentication
-   security/payments
-   security/regulatory_compliance
+   _sections/security/data_protection
+   _sections/security/authentication
+   _sections/security/payments
+   _sections/security/regulatory_compliance
 
 .. toctree::
    :maxdepth: 2
    :caption: TROUBLESHOOTING & FAQS
 
-   troubleshooting/common_issues
-   troubleshooting/faqs
-   troubleshooting/support_contact
+   _sections/troubleshooting/common_issues
+   _sections/troubleshooting/faqs
+   _sections/troubleshooting/support_contact
 
 .. toctree::
    :maxdepth: 2
    :caption: GLOSSARY
 
-   glossary/definitions
+   _sections/glossary/definitions
 
 .. toctree::
    :maxdepth: 2
    :caption: RELEASE NOTES & CHANGELOG
 
-   release_notes/versioning
-   release_notes/updates
-   release_notes/bug_fixes
-   release_notes/deprecations
+   _sections/release_notes/versioning
+   _sections/release_notes/updates
+   _sections/release_notes/bug_fixes
+   _sections/release_notes/deprecations
 
 .. toctree::
    :maxdepth: 2
    :caption: CONTRIBUTING TO DOCUMENTATION
 
-   contributing/edit_suggestions
-   contributing/reporting_issues
-   contributing/style_guide
+   _sections/contributing/edit_suggestions
+   _sections/contributing/reporting_issues
+   _sections/contributing/style_guide
 
 
 
