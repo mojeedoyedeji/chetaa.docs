@@ -1,7 +1,7 @@
 Introduction
 ============
 
-.. image:: ../images/dermvision_main.png
+.. image:: ../images/logo_dark.png
    :alt: Project Logo
    :width: 200px
    :align: center
