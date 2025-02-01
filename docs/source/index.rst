@@ -14,7 +14,7 @@ Introduction
 
 |spacer|
 
-**DermVision** (/ˈdɜrmˌvɪʒən/) is a SaaS computer-aided assistive diagnostic tool for patients and dermatologists.
+**DermVision** (/ˈdɜrmˌvɪʒən/) is a SaaS application for mini-logistics businesses
 
 
 
@@ -25,7 +25,7 @@ Introduction
 Core Features
 ^^^^^^^^^^^^
 
-- **AI-Powered Diagnostics**: DermVision uses state-of-the-art deep learning models to analyze dermatological images. The AI system is trained on a vast dataset of skin images, enabling it to recognize and classify a wide range of skin conditions with high accuracy.
+- **Feature 1**: DermVision uses state-of-the-art deep learning models to analyze dermatological images. The AI system is trained on a vast dataset of skin images, enabling it to recognize and classify a wide range of skin conditions with high accuracy.
 - **Diagnostics Records Management**: The Diagnostics Record Management System (DRMS) in DermVision is a robust tool designed to manage and maintain diagnostic records efficiently. It integrates seamlessly with the AI-assisted diagnostic tools, providing a comprehensive solution for tracking, storing, and analyzing diagnostic data.
 - **Patients Records Management**: DermVision offers a robust patient record management system designed to streamline the documentation, retrieval, and analysis of patient information.
 - **Clinical Notes Management**: The Clinical Notes Record Management System (CNRMS) within DermVision is designed to streamline the documentation and management of clinical notes, providing healthcare professionals with a centralized, secure, and efficient way to record and access patient information.
@@ -41,3 +41,12 @@ Contents
    system-design
    how-to-guides
    developer-api
+
+.. toctree::
+   :maxdepth: 2
+   :caption: GETTING STARTED
+
+   tutorial
+   adding_documentation_project
+   popular_documentation_tools
+   example_projects
