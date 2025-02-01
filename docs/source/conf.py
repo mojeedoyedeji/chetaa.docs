@@ -5,7 +5,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath('.'))
-project = 'dermvision'
+project = 'chetaa'
 copyright = '2024, Mo Oyedeji'
 author = 'Mo Oyedeji'
 
