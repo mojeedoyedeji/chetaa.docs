@@ -21,7 +21,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.plantuml',
-    'sphinx_tabs.tabs'
+    'sphinx_tabs.tabs',
     "myst_parser"
 ]
 
