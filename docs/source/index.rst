@@ -1,6 +1,6 @@
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: INTRODUCTION
 
    _sections/introduction/overview
