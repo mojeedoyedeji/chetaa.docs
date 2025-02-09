@@ -4,3 +4,4 @@ sphinxcontrib-plantuml==0.30
 graphviz
 sphinx-tabs
 myst-parser
+sphinx-book-theme
