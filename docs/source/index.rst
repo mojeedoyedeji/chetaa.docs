@@ -4,9 +4,9 @@
    :caption: INTRODUCTION
 
    _sections/introduction/overview
-   _sections/introduction/purpose
-   _sections/introduction/key_features
-   _sections/introduction/platforms
+      _sections/introduction/purpose
+      _sections/introduction/key_features
+      _sections/introduction/platforms
 
 .. toctree::
    :maxdepth: 2
