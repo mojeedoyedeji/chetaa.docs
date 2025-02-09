@@ -22,6 +22,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinxcontrib.plantuml',
     'sphinx_tabs.tabs'
+    "myst_parser"
 ]
 
 myst_enable_extensions = [

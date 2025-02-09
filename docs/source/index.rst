@@ -32,41 +32,41 @@
    :maxdepth: 2
    :caption: ADMIN GUIDE
 
-   _sections/admin/managing_users
-   _sections/admin/business_settings
-   _sections/admin/managing_logistics
-   _sections/admin/system_usage_reports
-   _sections/admin/handling_support
+   _sections/admin_guide/managing_users
+   _sections/admin_guide/business_settings
+   _sections/admin_guide/managing_logistics
+   _sections/admin_guide/system_usage_reports
+   _sections/admin_guide/handling_support
 
 .. toctree::
    :maxdepth: 2
    :caption: USER (SMALL BUSINESS OWNER) GUIDE
 
-   _sections/user/creating_orders
-   _sections/user/tracking_deliveries
-   _sections/user/payments_invoices
-   _sections/user/reviewing_dispatchers
-   _sections/user/support_disputes
+   _sections/user_guide/creating_orders
+   _sections/user_guide/tracking_deliveries
+   _sections/user_guide/payments_invoices
+   _sections/user_guide/reviewing_dispatchers
+   _sections/user_guide/support_disputes
 
 .. toctree::
    :maxdepth: 2
    :caption: DISPATCHER GUIDE
 
-   _sections/dispatcher/managing_requests
-   _sections/dispatcher/updating_status
-   _sections/dispatcher/managing_routes
-   _sections/dispatcher/communication
-   _sections/dispatcher/payment_tracking
+   _sections/dispatcher_guide/managing_requests
+   _sections/dispatcher_guide/updating_status
+   _sections/dispatcher_guide/managing_routes
+   _sections/dispatcher_guide/communication
+   _sections/dispatcher_guide/payment_tracking
 
 .. toctree::
    :maxdepth: 2
    :caption: DISPATCH BUSINESS OWNER GUIDE
 
-   _sections/business_owner/registering_business
-   _sections/business_owner/managing_dispatchers
-   _sections/business_owner/assigning_requests
-   _sections/business_owner/payments_payouts
-   _sections/business_owner/analytics_reporting
+   _sections/business_owner_guide/registering_business
+   _sections/business_owner_guide/managing_dispatchers
+   _sections/business_owner_guide/assigning_requests
+   _sections/business_owner_guide/payments_payouts
+   _sections/business_owner_guide/analytics_reporting
 
 .. toctree::
    :maxdepth: 2
