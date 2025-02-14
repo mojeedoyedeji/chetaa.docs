@@ -29,6 +29,8 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
+    "sphinx_tabs.tabs",
+    'sphinxcontrib.httpdomain',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.plantuml',
@@ -75,4 +77,3 @@ epub_show_urls = 'footnote'
 
 sphinx_tabs_valid_builders = ['linkcheck']
 sphinx_tabs_disable_tab_closing = True
-

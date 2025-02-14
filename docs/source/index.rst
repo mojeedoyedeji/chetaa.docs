@@ -1,22 +1,56 @@
-Welcome to Chetaa Documentation
-================================
-This is just a small page to test Read the Docs integration with Material for MkDocs
-using the [new Read the Docs Addons](https://github.com/readthedocs/addons).
-
-- Flyout at the bottom right styled properly
-- Version selector in the top bar
-- Search input integrated with Read the Docs Elasticsearch backend
+=======
+Welcome
+=======
 
 
+Chetaa is a software-as-a-service (SaaS) platform designed to seamlessly connect 
+logistics service providers with small business owners and customers who require 
+fast, reliable, and efficient delivery solutions. The platform serves as an all-in-one ecosystem 
+for managing logistics operations, optimizing delivery workflows, and ensuring timely fulfillment of customer requests.
+
+Purpose
+^^^^^^^
+
+This documentation provides a structured guide to understanding and using Chetaa effectively. 
+It is designed to cater to different user categories, including:
+
+- Regular users - Individuals or businesses utilizing Chetaa for shipping and receiving packages.
+- Logistics service providers – Businesses that manage deliveries, dispatch riders, and fleet operations.
+- Administrators – System-level users who oversee platform operations, user management, and configurations.
+- Developers – Internal and external engineers integrating Chetaa’s API into custom solutions or expanding its capabilities.
+
+Contents
+^^^^^^^^
+
+The Chetaa documentation is a **comprehensive resource** that covers:
+
+1. **How-To Guides**:  
+   Step-by-step instructions for users navigating the platform, including setting up accounts, booking deliveries, and tracking shipments.
+
+2. **Database Reference**:  
+   A technical breakdown of Chetaa’s data structure, including key entities, relationships, and best practices for interacting with the database.
+
+3. **API Documentation**:  
+   A detailed reference for developers integrating Chetaa’s logistics API, including authentication, 
+   endpoints, request-response formats, and sample use cases.
+
+4. **User Role-Specific Guides**:  
+   Tailored instructions for different user categories, ensuring each segment can maximize the platform’s potential.
+
+Audience
+^^^^^^^^
+
+This documentation is intended for:
+
+- **Regular users** looking for guidance on using Chetaa for their delivery needs.
+- **Business owners** managing logistics for their products and services.
+- **Logistics service providers** optimizing their operations.
+- **Developers** working on integrating or extending Chetaa’s capabilities.
+
+Whether you are a **business owner** looking for reliable logistics services or a **developer** seeking to integrate Chetaa into your application,
+this guide provides all the necessary information to use, manage, and extend Chetaa efficiently.
 
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Introduction
-   :hidden:
-
-   content/introduction
 
 .. toctree::
    :maxdepth: 2
@@ -34,18 +68,11 @@ using the [new Read the Docs Addons](https://github.com/readthedocs/addons).
    :caption: User Guide
    :hidden:
 
-   content/user-guide/food-sme/profile
-   content/user-guide/food-sme/menu
-   content/user-guide/food-sme/orders
-   content/user-guide/food-sme/payments
-   content/user-guide/food-sme/communication
-   content/user-guide/customers/search
-   content/user-guide/customers/orders
-   content/user-guide/customers/tracking
-   content/user-guide/customers/payments
-   content/user-guide/delivery/register
-   content/user-guide/delivery/requests
-   content/user-guide/delivery/tracking
+   content/user-guide/customers/index
+   content/user-guide/business-owners/index
+   content/user-guide/delivery/index
+   content/user-guide/dispatchers/index
+
 
 .. toctree::
    :maxdepth: 2
@@ -59,14 +86,38 @@ using the [new Read the Docs Addons](https://github.com/readthedocs/addons).
 
 .. toctree::
    :maxdepth: 2
+   :caption: Database Schema
+   :hidden:
+
+   content/database/
+   content/database/tables/users
+   content/database/tables/clients
+   content/database/tables/customers
+   content/database/tables/agents
+   content/database/tables/delivery
+   content/database/tables/app_delivery
+   content/database/tables/delivery_logs
+   content/database/tables/directory
+   content/database/tables/dispatch
+   content/database/tables/issue
+   content/database/tables/issue_logs
+   content/database/tables/notification
+   content/database/tables/places
+   content/database/tables/payments
+   content/database/tables/transactions
+   content/database/tables/services
+   content/database/tables/subscription
+   content/database/tables/wallet
+   content/database/tables/withdrawals
+
+.. toctree::
+   :maxdepth: 2
    :caption: API Documentation
    :hidden:
 
    content/api-docs/overview
    content/api-docs/auth
-   content/api-docs/endpoints/businesses
-   content/api-docs/endpoints/customers
-   content/api-docs/endpoints/delivery
+   content/api-docs/endpoints/index
    content/api-docs/webhooks
    content/api-docs/errors
 
