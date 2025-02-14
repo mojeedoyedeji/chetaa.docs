@@ -1,1 +1,0 @@
-# Accepting Delivery Requests
