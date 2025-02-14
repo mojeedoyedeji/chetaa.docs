@@ -1,1 +1,0 @@
-# Registering as a Partner
