@@ -5,3 +5,4 @@ graphviz
 sphinx-tabs
 myst-parser
 sphinx-book-theme
+sphinxcontrib-httpdomain
