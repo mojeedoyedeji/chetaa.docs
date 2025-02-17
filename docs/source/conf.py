@@ -31,6 +31,8 @@ extensions = [
     'sphinx.ext.autodoc',
     "sphinx_tabs.tabs",
     'sphinxcontrib.httpdomain',
+    'sphinx_copybutton',
+    "sphinx_design",
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.plantuml',
@@ -62,7 +64,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
-    "navigation_depth": 4,  # Keeps nested items visible
+    "navigation_depth": 5,  # Keeps nested items visible
     "collapse_navigation": False,  # Ensures sidebar stays expanded
     "sticky_navigation": True,  # Keeps sidebar visible while scrolling
     "includehidden": True,  # Ensures sub-items remain visible

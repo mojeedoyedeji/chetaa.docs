@@ -1,3 +1,5 @@
+(delivery_table)=
+
 # Delivery
 
 ```{tip}
@@ -11,11 +13,11 @@ Helpful tips can be added like this.
 
 | Column Name           | Data Type                                                  | Description                                                 |
 | --------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
-| id                    | `INT` `(PK)`                                               | Unique identifier for each order.                           |
+| id                    | `VARCHAR(255)` `(PK)`                                      | Unique identifier for each order.                           |
 | type                  | `VARCHAR(50)`                                              | Type of service (e.g., delivery, transportation).           |
-| channel               | `VARCHAR(50)`                                              | Type of service (e.g., delivery, transportation).           |
-| category              | `VARCHAR(255)`                                             | Order category (e.g., logistics, moving, express delivery). |
-| period                | `VARCHAR(50)`                                              | Type of service (e.g., delivery, transportation).           |
+| channel               | `VARCHAR(50)`                                              | The platform where the delivery service was requested from  |
+| category              | `ENUM('service', 'quote')`                                 | Order category (e.g., logistics, moving, express delivery). |
+| period                | `VARCHAR(50)`                                              |                                                             |
 | pickup_date           | `DATETIME`                                                 | Scheduled pickup date and time.                             |
 | pickup_name           | `VARCHAR(255)`                                             | Name of the sender at the pickup location.                  |
 | pickup_address        | `TEXT`                                                     | Full address for pickup.                                    |

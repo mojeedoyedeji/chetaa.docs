@@ -7,6 +7,7 @@ Endpoints
    agents
    users
    customers
+   dispatcher
    delivery
    terminal
    issue
