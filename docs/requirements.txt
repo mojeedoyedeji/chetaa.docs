@@ -7,3 +7,4 @@ myst-parser
 sphinx-book-theme
 sphinxcontrib-httpdomain
 sphinx-copybutton
+sphinx-design
