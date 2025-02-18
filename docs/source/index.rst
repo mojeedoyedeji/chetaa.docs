@@ -123,26 +123,6 @@ this guide provides all the necessary information to use, manage, and extend Che
 
 .. toctree::
    :maxdepth: 2
-   :caption: Deployment & Configuration
-   :hidden:
-
-   content/deployment/install
-   content/deployment/env-vars
-   content/deployment/database
-   content/deployment/hosting
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Security & Compliance
-   :hidden:
-
-   content/security/privacy
-   content/security/payments
-   content/security/auth
-   content/security/fraud
-
-.. toctree::
-   :maxdepth: 2
    :caption: Troubleshooting & FAQs
    :hidden:
 
